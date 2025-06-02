@@ -3,13 +3,15 @@ A machine learning pipeline to detect fraudulent financial transactions using a 
 
 # Overview
 
-This project aims to develop a robust and scalable fraud detection pipeline using machine learning techniques. The pipeline was built on a large Kaggle dataset consisting of over 6.3 million financial transactions.
+This project presents a robust and scalable machine learning pipeline designed to detect fraudulent financial transactions with high accuracy and reliability. Using a real-world dataset of over 6.3 million records from Kaggle, the pipeline walks through the full data science workflow — from data ingestion and exploration to feature engineering, model training, and evaluation.
+
+The model is trained to identify suspicious behavior in transaction data such as transfers and cash outs, leveraging balance movements and transaction metadata. After a series of rigorous evaluations, the final model achieves 94% accuracy, demonstrating strong performance in identifying fraudulent activity in imbalanced datasets.
 
 The objective is to predict whether a given transaction is fraudulent based on features like transaction type, amount, balances, and more. This project covers the full data science lifecycle: from data wrangling to model deployment-ready output.
 
 # 📂 Dataset
 
-Source: Kaggle (labeled as "AIML Dataset")
+Source: Kaggle (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
 
 Size: 6,362,620 records
 
@@ -135,6 +137,7 @@ Model exported for future deployment
 # 🔮 Future Improvements
 
 Apply SVD or PCA to reduce feature space
+<img width="1512" alt="Screenshot 2025-06-01 at 11 57 33 PM" src="https://github.com/user-attachments/assets/083b6482-197e-41ca-bd3a-11e75b994ffe" />
 
 Use advanced models like XGBoost or LightGBM
 
@@ -160,5 +163,6 @@ Jupyter Notebook
 Aryan Raj (B.S. in Data Science) 
 LinkedIn: www.linkedin.com/in/aryan-raj-a742bb203
 
+<img width="1507" alt="Screenshot 2025-06-01 at 11 59 34 PM" src="https://github.com/user-attachments/assets/0439052d-89c8-46f8-a95c-571b56839659" />
 
 
